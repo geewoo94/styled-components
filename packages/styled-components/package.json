@@ -27,7 +27,8 @@
     "lint": "eslint src",
     "lint:size": "bundlewatch",
     "prettier": "prettier */**/*.js --write",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "myTest": "jest src/utils/test/convertCssToObject.test --watch"
   },
   "repository": {
     "type": "git",
